@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="datasJS/datasServer.js"></script>
+	<script src="js/jquery.js"></script>
+	<script>
+		window.onload=function(){
+			var bookTypes=JSON.parse(localStorage.getItem("bookTypes"));
+			console.log(bookTypes);
+			// for(var i in bookTypes){
+			// 	var div=$("<div></div>");
+			// 	var p=$("<p>"++"</p>");
+			// 	div.append(p);
+			// 	for(){
+			// 		// bookTypes[i].list
+			// 	}
+			// 	var div=$("<div><p>"+bookTypes[i].title+"</p></div>");
+			// 	$("#container").append(div);
+			// }
+			// 
+			var div="";
+			for(var i in bookTypes){
+				div+="<div><p>"+bookTypes[i].title+"</p></div>";
+			}
+			$("#container").html(div);
+
+		}
+	</script>
+</head>
+<body>
+	<div id="container">
+		
+	</div>
+</body>
+</html>

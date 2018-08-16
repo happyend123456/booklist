@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    <link rel="stylesheet" href="swiper/css/swiper.css">
+    <script src="swiper/js/swiper.js"></script>
+    <script src="jquery/jquery-1.9.0.js"></script>
+    <script src="library/paging.js"></script>
+    <script src="datasJS/datasServer.js"></script>
+    <link rel="stylesheet" type="text/css" href="library/pagefirst.css">
+</head>
+
+<body>
+    <div id="fristDiv">
+        <div id="secondDiv">
+            <ul class="toLeft">
+                <li><a href="">欢迎光临网博图书网</a></li>
+                <li><a href="">请登录</a></li>
+                <li><a href="">免费注册</a></li>
+            </ul>
+            <ul class="toRight">
+                <li><a href="">购物车</a></li>
+                <li><a href="">我的订单</a></li>
+                <li>
+                    <ul class="inner1">
+                        <li><a href="">个人中心<i class="iconfont icon-jiantouarrow486"></i></a></li>
+                        <li class="hid"><a href="">个人账户</a></li>
+                        <li class="hid"><a href="">收货地址</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="search">
+        <div class="img1"><img src="img/logo.png"></div>
+        <div class="on1">
+            <input type="text" name="" id="input1">
+            <input type="submit" name="" value="搜索" id="input2">
+            <p><a href="">史蒂芬.霍金</a> / <a href="">刺杀骑士团长</a> / <a href="">蒙台梭利育儿全书</a> / <a href="">阿加莎.克里斯蒂</a></p>
+        </div>
+        <div class="img2"><img src="img/tip.png"></div>
+    </div>
+    <div id="classify">
+        <ul>
+            <li>图书分类</li>
+            <li>首页</li>
+            <li>淘书团</li>
+            <li>畅销榜</li>
+            <li>新上架</li>
+            <li>平台自营</li>
+            <li>出版社直销</li>
+        </ul>
+    </div>
+    <div id="total">
+        <div id="right1">
+            <div class="display1"></div>
+            <div id="rightBooks">
+                <div id="books">
+                </div>
+                <div class="allProduct"><a href="">全部商品分类......</a></div>
+                <div class="recommend"><img src="img/recomend.png"></div>
+            </div>
+        </div>
+        <div id="secondBox">
+            <div class="pics">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next">></div>
+                    <div class="swiper-button-prev"><</div>
+                </div>
+            </div>
+            <div class="thirdBox">
+                <div class="greyBox">
+                    <div class="guessY">
+                        <div class="guessY1" onclick="likes('guessLikes')">猜你喜欢</div>
+                        <div class="guessY11" onclick="likes('selected')">本周精选</div>
+                        <div class="guessY11" onclick="likes('recommend')">主编推荐</div>
+                    </div>
+                    <div class="greyBox2">
+                        <div class="guessU">
+                        </div>
+                        <div class="picsFour">
+                        </div>
+                    </div>
+                </div>
+                <div class="hot">
+                    <div class="bookHot"><span>图书畅销榜</span><a href="">更多>></a></div>
+                    <div class="hotKind"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="special">
+        <div><img src="img/special/special01.jpg"></div>
+        <div><img src="img/special/special02.jpg"></div>
+        <div><img src="img/special/special03.jpg"></div>
+    </div>
+    <div class="taoBook"><span>淘书团热销</span><a href="">查看更多商品>></a></div>
+    <div class="taoPics">
+    </div>
+    <div class="bookUp"><span>新书上架促销</span><a href="">查看更多商品>></a></div>
+    <div class="newBook"></div>
+    <div class="selfAll">
+        <div class="self"><span>平台自营</span></div>
+        <div class="self2">
+            <div class="selfLright"></div>
+        </div>
+    </div>
+    <div class="selfAll2">
+        <div class="pretty">
+            <p class="goods">自营好书推荐</p>
+            <div class="left1">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="p10"></div>
+    </div>
+    <div class="direct1"><span>出版社直销</span></div>
+    <div class="directAll">
+        <div class="directl">
+            <div class="directT"></div>
+            <div class="directBottom">
+                <div class="dTop"> <i class="icon iconfont icon-icon_arrow_top"></i></div>
+                <div class="dBottom"><i class="icon iconfont icon-icon_arrow_bottom"></i></div>
+            </div>
+        </div>
+        <div class="directR">
+            <div class="directR1"></div>
+            <div class="directR2"></div>
+        </div>
+    </div>
+</body>
+<div class="dEnd">
+    <p>&copy 2018 南京网博优壹 by 项目组-han</p>
+    <p>2018年06月04日22:22</p>
+</div>
+
+</html>

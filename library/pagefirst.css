@@ -1,0 +1,1118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 1200px;
+}
+
+#fristDiv {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 30px;
+}
+
+#secondDiv {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.toLeft {
+    display: flex;
+}
+
+.toRight {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+#fristDiv a {
+    color: #666666;
+    text-decoration: none;
+}
+
+#fristDiv a:hover {
+    color: red;
+}
+
+li {
+    margin: 0 10px;
+}
+
+ul {
+    line-height: 30px;
+}
+
+.inner1 {
+    display: block;
+}
+
+.inner1 li {
+    margin: 0;
+}
+
+.inner1:hover li {
+    display: block;
+    z-index: 99;
+    background: white;
+    line-height: 30px;
+}
+
+.hid {
+    display: none;
+}
+
+#search {
+    margin: 10px auto 0px;
+    height: 75px;
+    width: 1200px;
+}
+
+img {
+    width: 100%;
+}
+
+.img1 {
+    float: left;
+    width: 200px;
+    /*height:100px;*/
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.on1 {
+    float: left;
+    width: 605px;
+    height: 100px;
+    margin-right: 90px;
+}
+
+.img2 {
+    float: left;
+    width: 150px;
+    /*height:100px;*/
+    margin-right: 70px;
+}
+
+#input1 {
+    border: 1px solid darkorange;
+    border-radius: 10px 0px 0px 10px;
+    height: 28px;
+    width: 535px;
+}
+
+#input2 {
+    border-width: 0;
+    background: darkorange;
+    border-radius: 0px 10px 10px 0px;
+    height: 30px;
+    width: 60px;
+    color: white;
+    margin-left: -8px;
+}
+
+.on1 p {
+    color: grey;
+}
+
+.on1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+
+.on1 a:hover {
+    color: red;
+}
+
+#classify ul li:first-child {
+    background-color: #ff5000;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 180px;
+    margin-left: -1px;
+}
+
+#classify ul li {
+    height: 30px;
+    font-size: 18px;
+    width: 100px;
+    font-family: "微软雅黑";
+}
+
+#classify ul li:hover {
+    color: orange;
+}
+
+#classify ul {
+    margin: auto;
+    text-align: center;
+    width: 1200px;
+    display: flex;
+}
+
+#classify {
+    border-bottom: 10px solid #ff5000;
+}
+
+#total {
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+#rightBooks {
+    border: 2px solid #ff5000;
+    width: 180px;
+    height: 500px;
+}
+
+#books {
+    width: 180px;
+    height: 470px;
+}
+
+.book1 {
+    border-bottom: 1px solid #eeeeee;
+    width: 100%;
+    height: 65px;
+}
+
+.book1:nth-of-type(1) {
+    width: 100%;
+    height: 45px;
+}
+
+.book1:nth-of-type(2) {
+    width: 100%;
+    height: 85px;
+}
+
+.book1:nth-of-type(4) {
+    width: 100%;
+    height: 85px;
+}
+
+.novels {
+    width: 500px;
+    height: 22px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    margin: 10px 0 0 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.novels a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 0 10px;
+}
+
+.novelpost {
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.novel {
+    width: 30px;
+    height: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.p2 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+
+.p2 a:hover {
+    color: red;
+}
+
+.title1 {
+    font-weight: bolder;
+    margin-left: 13px;
+    color: #606060;
+}
+
+.p2 {
+    display: inline-block;
+}
+
+.icon-arrow-right-copy {
+    font-size: 14px;
+    float: right;
+}
+
+.allProduct {
+    border: 1px solid red;
+    color: #ff5500;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+#secondBox {
+    width: 1020px;
+    height: 790px;
+    /*border:1px solid #ff5000;*/
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.pics {
+    width: 1005px;
+    height: 350px;
+    /*border:1px solid #ff5000;*/
+    float: left;
+}
+
+.pics .swiper-slide {
+    width: 1005px;
+    height: 350px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.allProduct {
+    width: 180px;
+    height: 22px;
+    border: 0px solid #ff5000;
+}
+
+.allProduct a {
+    text-decoration: none;
+    color: #ff5000;
+    margin-left: 45px;
+}
+
+.allProduct a:hover {
+    color: red;
+}
+
+#right1 {
+    width: 180px;
+    height: 800px;
+}
+
+.display1 {
+    width: 575px;
+    height: 502px;
+    border: 1px solid red;
+    position: absolute;
+    z-index: 99;
+    background-color: white;
+    margin-left: 183px;
+    display: none;
+}
+
+.recommend {
+    width: 190px;
+    height: 265px;
+    margin-top: 20px;
+}
+
+.recommend img {
+    height: 100%;
+}
+
+.thirdBox {
+    width: 1005px;
+    height: 426px;
+    float: left;
+}
+
+.greyBox {
+    width: 685px;
+    height: 405px;
+    border: 8px solid #eeeeee;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+}
+
+.guessY {
+    width: 685px;
+    height: 30px;
+    display: flex;
+}
+
+.guessY1 {
+    border-top:4px solid white;
+    width: 100px;
+    height: 30px;
+    color: #ff5000;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.guessY11 {
+    border-top:4px solid white;
+    width: 100px;
+    height: 30px;
+    color: #666666;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.guessY2 {
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+
+.guessY3 {
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+}
+
+.greyBox2 {
+    width: 685px;
+    height: 360px;
+}
+
+.guessU {
+    width: 685px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guessU img {
+    width: auto;
+    height: 150px;
+    margin: 15px 0 0 10px;
+}
+
+.titles {
+    font-weight: bolder;
+    width: 250px;
+    height: 25px;
+    margin: 30px 0px 10px 25px;
+}
+
+.sp2 {
+    width: 283px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.price1 {
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.price2 {
+    color: #666666;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.stories {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    border: 1px solid transparent;
+    text-indent: 2em;
+    margin: 10px 15px 0 25px;
+}
+
+.picsFour {
+    margin-top: 5px;
+    width: 685px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div4 {
+    width: 140px;
+    height: 150px;
+    text-align: center;
+}
+
+.div4 img {
+    width: auto;
+    height: 100px;
+}
+
+.titles2 {
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    width: 140px;
+    margin-top: 5px;
+}
+
+.sp3 {
+    width: 150px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.price3 {
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.price4 {
+    color: #666666;
+    text-decoration: line-through;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.hot {
+    width: 280px;
+    height: 415px;
+    float: left;
+    margin-top: 10px;
+}
+
+.bookHot {
+    width: 282px;
+    height: 25px;
+    border-bottom: 2px solid #ff5000;
+    margin-left: 15px;
+}
+
+.bookHot span {
+    font-size: 18px;
+    color: #ff651e;
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+.bookHot a {
+    text-decoration: none;
+    font-size: 12px;
+    float: right;
+    color: grey;
+    line-height: 25px;
+}
+
+.bookHot a:hover {
+    color: red;
+}
+
+.hotKind {
+    width: 280px;
+    height: 390px;
+    border: 1px solid #eeeeee;
+    margin-left: 15px;
+}
+
+.sadness {
+    width: 280px;
+    height: 37px;
+    border-top: 2px solid #eeeeee;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sadness:hover p {
+    color: red;
+}
+
+.sadness:hover i {
+    color: red;
+}
+
+.headers:nth-of-type(1) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    text-overflow: ellipsis;
+}
+
+#special {
+    width: 1200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#special div {
+    width: 390px;
+    height: 120px;
+}
+
+#special img {
+    width: 100%;
+    height: 100%;
+}
+
+.taoBook {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto 8px;
+    border-bottom: 2px solid #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.taoBook span {
+    color: #ff5052;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+.taoBook a {
+    text-decoration: none;
+    color: #9999b3;
+    font-size: 12px;
+}
+
+.taoBook a:hover {
+    color: red;
+}
+
+.taoPics {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.divAl {
+    width: 290px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.buyP {
+    width: 290px;
+    height: 200px;
+}
+
+.buyP img {
+    width: auto;
+    height: 194px;
+}
+
+.buyT {
+    width: 280px;
+    height: 60px;
+    margin: 5px auto 5px;
+}
+
+.buyT a {
+    text-decoration: none;
+    color: black;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.buyT a:hover {
+    color: #ff5000;
+}
+
+.buyD {
+    width: 270px;
+    height: 25px;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.pSpan span:first-child {
+    color: #ff0000;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.pSpan span:last-child {
+    color: #cccccc;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+.dis {
+    color: white;
+    background: #3bb4f2;
+    font-size: 14px;
+    width: 50px;
+    height: 15px;
+    text-align: center;
+}
+
+.bookUp {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bookUp span {
+    color: #ff5052;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "微软雅黑";
+}
+
+.bookUp a {
+    text-decoration: none;
+    color: #9999b3;
+    font-size: 12px;
+}
+
+.bookUp a:hover {
+    color: red;
+}
+
+.newBook {
+    /*border:2px solid #cccccc;*/
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pNew1 {
+    margin-left: 10px;
+    font-family: "微软雅黑";
+    margin-top: 5px;
+}
+
+.pNew2 {
+    font-size: 12px;
+    margin: 0px 10px;
+}
+
+.pPrice1 {
+    color: red;
+    font-family: "微软雅黑";
+    margin-left: 8px;
+}
+
+.pPrice2 {
+    color: #ccc;
+    text-decoration: line-through;
+    font-family: "微软雅黑";
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.divNew {
+    width: 198px;
+    height: 205px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.imgNew {
+    width: 143px;
+    height: 143px;
+    margin: auto 0 0 auto;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.imgNew img {
+    height: 140px;
+    width: auto;
+}
+
+.imgNew img:hover {
+    transform: translate(-15px, 0);
+    transition: transform 0.2s linear 0s;
+}
+
+.selfAll {
+    width: 1200px;
+    height: 50px;
+    /*border:1px solid red;*/
+    display: flex;
+    margin: 15px auto 10px;
+}
+
+.self {
+    width: 222px;
+    height: 50px;
+    background-color: #b17f4a;
+}
+
+.self span {
+    width: 180px;
+    height: 50px;
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+.selfAll2 {
+    width: 1200px;
+    height: 350px;
+    /*border:1px solid red;*/
+    display: flex;
+    margin: 0px auto 10px;
+}
+
+.pretty {
+    width: 220px;
+    height: 350px;
+    /*border:1px solid red;*/
+    background-color: #ffebd3;
+}
+
+.goods {
+    font-family: "微软雅黑";
+    font-size: 22px;
+    color: #b17f4a;
+    margin: 5px 0px 5px 40px;
+}
+
+.pics1 {
+    width: 250px;
+    height: 300px;
+}
+
+.selfLright {
+    display: flex;
+    margin-left: 4px;
+}
+
+.selfLright div {
+    width: 120px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border-top: 4px solid white;
+}
+
+.left1 {
+    width: 220px;
+    height: 310px;
+    /*border:1px solid red;*/
+}
+
+.left1 img {
+    width: 200px;
+    height: 250px;
+    margin-left: 10px;
+}
+
+.novelP {
+    margin: 8px 10px;
+    height: 1em;
+}
+
+.left1 span:first-child {
+    color: red;
+}
+
+.left1 span:first-child {
+    color: red;
+    margin: 10px 10px 10px 30px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+
+.left1 span:last-child {
+    color: #666666;
+    margin: 10px 5px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+.p10 {
+    width: 980px;
+    height: 350px;
+    /*border:1px solid red;*/
+    float: left;
+    margin: 0px auto;
+}
+
+.allSelf {
+    width: 193px;
+    height: 173px;
+    /*border:1px solid red;*/
+    float: left;
+}
+
+.picDiv {
+    width: 130px;
+    height: 109px;
+    margin-left: 33px;
+}
+
+.picDiv img {
+    width: auto;
+    height: 100px;
+}
+
+.ptitle {
+    font-size: 12px;
+    margin: 0 10px 10px;
+    width: 180px;
+    height: 25px;
+}
+
+.redS {
+    color: red;
+    font-size: 15px;
+    margin: 0 10px;
+    font-weight: bolder;
+}
+
+.greyS {
+    color: #9a9a9a;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.self2 {
+    background-color: #eeeeee;
+    width: 990px;
+}
+
+.direct1 {
+    width: 1200px;
+    height: 40px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+.direct1 span {
+    color: #5eadbf;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    margin-left: 15px;
+}
+
+.directAll {
+    width: 1200px;
+    height: 527px;
+    margin: 5px auto;
+    display: flex;
+}
+
+.directl {
+    width: 215px;
+    height: 526px;
+    background-color: #eeeeee;
+}
+
+.directR {
+    width: 962px;
+    height: 527px;
+    margin-left: 20px;
+}
+
+.directT {
+    overflow: hidden;
+    width: 215px;
+    height: 490px;
+}
+
+.pressTitle {
+    position: relative;
+    margin-bottom: 10px;
+    width: 199px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+}
+
+.pressTitle:hover {
+    position: relative;
+    background-color: #5eadb1;
+    margin-bottom: 10px;
+    width: 199px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    color: white;
+}
+
+.directBottom {
+    width: 215px;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dTop {
+    width: 32px;
+    height: 29px;
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.dBottom {
+    width: 32px;
+    height: 29px;
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.directR1 {
+    width: 950px;
+    height: 200px;
+    border-bottom: 1px solid #9E9E9E;
+    margin-bottom: 10px;
+}
+
+.datas1 {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    margin: 15px 0px;
+}
+
+.datas2 {
+    line-height: 25px;
+    text-indent: 2em;
+}
+
+.directR2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picPress {
+    width: 190px;
+    height: 301px;
+}
+
+.picPress1 {
+    width: 160px;
+    height: 230px;
+}
+
+.picPress1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.pPress1 {
+    width: 190px;
+    height: 44px;
+    font-size: 15px;
+}
+
+.pPress21 {
+    font-size: 15px;
+    margin: 20px 10px 0px;
+    color: red;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+
+.pPress22 {
+    font-size: 15px;
+    margin: 20px 10px 0px;
+    color: #666666;
+    font-size: 18px;
+    font-family: "微软雅黑";
+}
+
+.pressTitle i {
+    color: #eee;
+}
+
+.dEnd {
+    margin-top: 20px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
+
+
+
+
+/*.dEnd span {
+	text-align:center;
+}*/
+
+.dEnd p:first-child {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dEnd p:last-child {
+    text-align: center;
+    margin: 10px 0 30px;
+}
+
+.swiper-button-next,.swiper-button-prev {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background: #ccc;
+    line-height: 30px;
+    color: white;
+}
